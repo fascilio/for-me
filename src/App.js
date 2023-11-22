@@ -4,6 +4,8 @@ import "./App.css"
 import Home from "./components/Hero/Home"
 import Features from "./components/Features/Features"
 import Portfolio from './components/Portfolio/Portfolio'
+import Resume from './components/Resume/Resume'
+import Testimonial from './components/Testimonial/Testimonial'
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
     <Home />
     <Features />
     <Portfolio />
+    <Resume />
+    <Testimonial />
  </>
  )
 

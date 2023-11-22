@@ -1,7 +1,7 @@
 const TestimonialApi = [
     {
         id: 1,
-        image: "./image/slide1.png",
+        image: "./image/spe1.jpg",
         design:"NCD - DESIGN",
         name: "James Njoroge",
         officer: "Marketing Officer",
@@ -11,7 +11,7 @@ const TestimonialApi = [
     },
     {
         id: 2,
-        image: "./image/slide2.png",
+        image: "./image/spe8.png",
         design:"Hydraulic Expert",
         name: "John Rayz",
         officer: "Head of Operations",
@@ -21,7 +21,7 @@ const TestimonialApi = [
     },
     {
         id: 3,
-        image: "./image/slide3.png",
+        image: "./image/spe7.jpg",
         design:"Founder",
         name: "Charlies Maestro",
         officer: "Chief Executive Officer",
@@ -31,7 +31,7 @@ const TestimonialApi = [
     },
     {
         id: 4,
-        image: "./image/slide4.png",
+        image: "./image/spe3.jpg",
         design:"Founder",
         name: "Jaynet Jyn",
         officer: "Chief Executive Officer",
@@ -41,7 +41,7 @@ const TestimonialApi = [
     },
     {
         id: 5,
-        image: "./image/slide5.png",
+        image: "./image/sp9.png",
         design:"Glassfin",
         name: "Boss B",
         officer: "Director",
