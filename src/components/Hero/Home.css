@@ -67,3 +67,18 @@
     right: 10%;
     width: 510px;
 }
+@media (max-width: 768px) {
+    .hero .right,
+    .hero .left {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .hero .f_flex {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .hero .right_img {
+        width: 95%;
+        height: 54vh;
+    }
+} 

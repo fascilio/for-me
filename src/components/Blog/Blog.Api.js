@@ -1,0 +1,36 @@
+const BlogApi = [
+    {
+        id: 1,
+        image: "./image/h2h.jpg",
+        date: "2 Jul, 2020",
+        title_one: "Manager of the store",
+        desc_one: "The main role of this job is to ensure everything runs smoothly",
+        title_two: "Stock manager",
+        desc_two: "Keep records of how items are moving in and out of the store",
+        title_three: "Sales manager",
+        desc_three: "Ensure all sales are recorded accuratery and in a timely manner.",
+    },
+    {
+        id: 2,
+        image: "./image/h1.png",
+        date: "2 oct, 2020",
+        title_one: "Human resources manager",
+        desc_one: "Protect all human resources",
+        title_two: "Recruitment manager",
+        desc_two: "Hire the best available manpower",
+        title_three: "Acheivo manager",
+        desc_three: "Check all goods before receiving from the supplier.",
+    },
+    {
+        id: 3,
+        image: "./image/hb4.jpg",
+        date: "10 oct, 2022",
+        title_one: "Procurement officer",
+        desc_one: "Protect all human resources",
+        title_two: "Recruitment manager",
+        desc_two: "Hire the best available manpower",
+        title_three: "Acheivo manager",
+        desc_three: "Check all goods before receiving from the supplier.",
+    },
+]
+export default BlogApi
