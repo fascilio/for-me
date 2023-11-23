@@ -28,21 +28,24 @@ const Home = () => {
                             
                         /></span>
                     </h2>
-                    <p>I am a professional coder with experience of a variety of coding languages, libraries and frameworks.
-                        I am also a practicing procurement officer and a supply chain manager. 
+                    <p>As a software developer, I bring innovative solutions to complex problems,
+                         ensuring efficient and scalable applications. With a proven track record in 
+                         procurement and supply chain management, I excel in optimizing processes 
+                         and driving cost-effective strategies. As a versatile professional, I offer a unique
+                          blend of technical expertise and strategic procurement insights, contributing to holistic and impactful organizational success. 
                     </p>
                     <div className='hero_btn d_flex'>
                         <div className='col_1'>
                             <h4>FIND ME WITH</h4>
                             <div className='button'>
-                                <button className='btn_shadow'>
+                                <button className='btn_shadow' onClick={() => window.location.href = 'https://www.facebook.com/profile.php?id=100084794587624/'}>
                                     <i className='fab fa-facebook-f'></i>
                                 </button>
-                                <button className='btn_shadow'>
+                                <button className='btn_shadow' onClick={() => window.location.href = 'https://www.instagram.com/vapour018?igshid=MTk0NTkyODZkYg==/'}>
                                     <i className='fab fa-instagram'></i>
                                 </button>
                                 <button className='btn_shadow'>
-                                    <i className='fab fa-linkedin-in'></i>
+                                    <i className='fab fa-twitter' onClick={() => window.location.href = 'https://www.x.com/run_jaw?t=cqsxkNRmKldytl3vph3G3w&s=09/'}></i>
                                 </button>
                             </div>
                         </div>

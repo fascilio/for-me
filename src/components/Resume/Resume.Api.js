@@ -5,7 +5,7 @@ const ResumeApi = [
         year: "Moringa School (2023 -2023)",
         title: "Full stack web developer",
         desc: "Taking risks in life definitely pays",
-        rate: "56/80",
+        rate: "8/10",
     },
     {
         id: 2,
@@ -21,15 +21,15 @@ const ResumeApi = [
         year: "Kangema High School (2016 - 2019)",
         title: "Kenya Certificate of Secondary Education",
         desc: "The best training in Kenya",
-        rate: "56/80",
+        rate: "8/10",
     },
     {
         id: 4,
         category: "education",
-        year: "Gitei Primary Education (2007 - 2015)",
+        year: "Gitei Primary School (2007 - 2015)",
         title: "Kenya Certificate of Primary Education",
         desc: "The most basic training in Kenya",
-        rate: "329/600",
+        rate: "9/10",
     },
     {
         id: 5,

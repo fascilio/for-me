@@ -29,8 +29,8 @@ const Card = (props) => {
             <div className="modal modal-blog">
                 <div onClick={toggleModal} className="overlay"></div>
                 <div className="modal-content ">
-                    <div className="modal-img lef">
-                        <img src={props.image} />
+                    <div className="modal-img left">
+                        <img src={props.image} alt='' />
                     </div>
                     <div className="modal-text right">
                         <span>{props.date}</span>
@@ -52,13 +52,13 @@ const Card = (props) => {
 
                             <form className='blog_contact d_flex'>
                                 <div className='left'>
-                                    <input type='text' placeholder='Name' />
-                                    <input type='text' placeholder='Email' />
-                                    <input type='text' placeholder='Phone number' />
+                                    <input type='text' placeholder='Name' required/>
+                                    <input type='text' placeholder='Email' required/>
+                                    <input type='text' placeholder='Phone number'required />
                                     <button className='btn_shadow'>SUBMIT NOW</button>
                                 </div>
                                 <div className='right'>
-                                    <textarea cols='30' rows='12' placeholder='Comment'></textarea>
+                                    <textarea cols='30' rows='12' placeholder='Comment' required></textarea>
                                 </div>
                             </form>
                         </div>

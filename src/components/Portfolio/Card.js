@@ -39,8 +39,8 @@ const Card = (props) => {
                     <div className="modal-text right">
                         <span>Featured - Design</span>
                         <h1>{props.title}</h1>
-                        <p>I can do very many things that people of my age sees as if it is not normal.</p>
-                        <p>I started driving at the age of 7 during my primary school years.</p>
+                        <p>{props.desc}</p>
+                        {/* <p>I started driving at the age of 7 during my primary school years.</p> */}
                         <div className="button f_flex mtop">
                             <button className="btn_shadow">
                                 LIKE THIS <i className="far fa-thumbs-up"></i>

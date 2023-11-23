@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./Header.css"
 import logo from "../Pic/sklogo2.png"
+import resumePDF from "../Resume/ResumeSam.pdf"
 
 const Header = () => {
     // when scroll header at top
@@ -12,12 +13,24 @@ const Header = () => {
     //toggle menu
     const [Mobile, setMobile] = useState(false)
 
+    const handleDownloadResume = () => {
+        const link = document.createElement('a');
+        link.href = resumePDF;
+        link.download = `Samuel's Resume.pdf`;
+        link.click();
+    };
+
   return (
     <>
         <header className="header">
             <div className="container d_flex">
-                <div className="logo">
+                {/* <div className="logo">
                     <img src={logo} alt='' />
+                </div> */}
+                <div className="logo">
+                     <a href="/home">
+                     <img src={logo} alt="Home" />
+                        </a>
                 </div>
 
                 <div className="navlink">
@@ -30,7 +43,8 @@ const Header = () => {
                         <li><a href="#clients">clients</a></li>
                         <li><a href="#blog">blog</a></li>
                         <li><a href="#contact">contact</a></li>
-                        <li><button className="home-btn">DOWNLOAD RESUME</button></li>
+                        {/* <li><button className="btn_shadow">DOWNLOAD RESUME</button></li> */}
+                        <li><button className="btn_shadow" onClick={handleDownloadResume}> DOWNLOAD RESUME </button></li>        
                     </ul>
 
                     <button className='toggle' onClick={() => setMobile(!Mobile)}>
