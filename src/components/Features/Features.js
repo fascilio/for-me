@@ -14,6 +14,7 @@ const Features = () => {
                 </div>
 
                 <div className="content grid"> 
+                {/* <div className="box btn_shadow"> */}
                     {data.map((val, index) => {
                         return <Card key={index} image={val.image} title={val.title} desc={val.desc} /> 
                     })}

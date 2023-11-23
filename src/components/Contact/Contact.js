@@ -97,7 +97,7 @@ const Contact = () => {
                                     <button className='btn_shadow' onClick={() => window.location.href = 'https://www.instagram.com/vapour018?igshid=MTk0NTkyODZkYg==/'}>
                                         <i className='fab fa-instagram'></i>
                                     </button>
-                                    <button className='btn_shadow' onClick={() => window.location.href = 'https://www.x.com/run_jaw?t=cqsxkNRmKldytl3vph3G3w&s=09/'}>
+                                    <button className='btn_shadow'>
                                         <i className='fab fa-twitter'></i>
                                     </button>
                                     <button className='btn_shadow'>
@@ -148,3 +148,4 @@ const Contact = () => {
 }
 
 export default Contact
+//onClick={() => window.location.href = 'https://www.x.com/ru?t=cqsxkNRmKldytl3vph3G3w&s=09/'}

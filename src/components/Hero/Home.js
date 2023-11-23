@@ -28,6 +28,7 @@ const Home = () => {
                             
                         /></span>
                     </h2>
+                    <br />
                     <p>As a software developer, I bring innovative solutions to complex problems,
                          ensuring efficient and scalable applications. With a proven track record in 
                          procurement and supply chain management, I excel in optimizing processes 
@@ -45,7 +46,7 @@ const Home = () => {
                                     <i className='fab fa-instagram'></i>
                                 </button>
                                 <button className='btn_shadow'>
-                                    <i className='fab fa-twitter' onClick={() => window.location.href = 'https://www.x.com/run_jaw?t=cqsxkNRmKldytl3vph3G3w&s=09/'}></i>
+                                    <i className='fab fa-twitter'></i>
                                 </button>
                             </div>
                         </div>
@@ -77,3 +78,4 @@ const Home = () => {
 }
 
 export default Home
+// onClick={() => window.location.href = 'https://www.x.com/ruw?t=cqsxkNRmKldytl3vph3G3w&s=09/'}

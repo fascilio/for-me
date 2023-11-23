@@ -55,11 +55,12 @@ const Card = (props) => {
                                     <input type='text' placeholder='Name' required/>
                                     <input type='text' placeholder='Email' required/>
                                     <input type='text' placeholder='Phone number'required />
+                                    <textarea cols='30' rows='12' placeholder='Comment' required></textarea>
                                     <button className='btn_shadow'>SUBMIT NOW</button>
                                 </div>
-                                <div className='right'>
+                                {/* <div className='right'>
                                     <textarea cols='30' rows='12' placeholder='Comment' required></textarea>
-                                </div>
+                                </div> */}
                             </form>
                         </div>
                     </div>
